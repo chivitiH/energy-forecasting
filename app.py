@@ -233,4 +233,3 @@ st.sidebar.markdown("""
 """)
 
 st.sidebar.markdown("---")
-st.sidebar.markdown("**Fait avec ❤️ par Yoni**")
