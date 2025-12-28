@@ -40,17 +40,6 @@ Prédire la **consommation électrique des 24 prochaines heures** à partir de 7
 
 **Interprétation :** Le modèle se trompe en moyenne de **moins de 5%** sur les prédictions !
 
-### Performance GPU
-
-| Métrique | Valeur |
-|----------|--------|
-| **Training time** | 2.8 minutes (24 epochs) |
-| **GPU** | RTX 5070 Ti Laptop (12GB) |
-| **Utilization** | 38% (normal pour LSTM) |
-| **Temperature** | 60°C |
-| **Speedup vs CPU** | ~15-20x |
-
----
 
 ## 🏗️ Architecture
 
@@ -213,22 +202,6 @@ EnergyForecasting/
 
 5 exemples aléatoires du test set montrant les prédictions (rouge) vs réalité (bleu) sur 24h.
 
----
-
-## 💻 Hardware
-
-**Configuration testée :**
-
-| Composant | Spécifications |
-|-----------|----------------|
-| **GPU** | NVIDIA RTX 5070 Ti Laptop (12GB VRAM) |
-| **CPU** | Intel Core (20 threads) |
-| **RAM** | 32GB DDR5 |
-| **OS** | Ubuntu 24.04 LTS (WSL2) |
-| **CUDA** | 12.1 |
-| **cuDNN** | 9.1 |
-
----
 
 ## 📚 Technologies
 
@@ -252,34 +225,6 @@ Les contributions sont bienvenues !
 
 ---
 
-## 📄 License
-
-MIT License - Voir [LICENSE](LICENSE) pour détails
-
----
-
-## 🙏 Remerciements
-
-- Dataset : [Rob Mulla - Kaggle](https://www.kaggle.com/robikscube)
-- Inspiration : Projets ML de forecasting énergétique
-- Hardware : NVIDIA RTX series
-- Framework : TensorFlow/Keras team
-
----
-
-## 📞 Contact
-
-**Auteur :** Yoni  
-**GitHub :** [@yonie](https://github.com/yonie)  
-**Projet :** [Energy Forecasting](https://github.com/yonie/energy-forecasting)
-
----
-
-<div align="center">
-
-**⭐ Si ce projet vous est utile, n'hésitez pas à mettre une étoile !**
-
-Made with ❤️ and ⚡ by Yoni
 
 </div>
 
