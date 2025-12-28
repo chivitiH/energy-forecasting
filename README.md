@@ -282,3 +282,24 @@ MIT License - Voir [LICENSE](LICENSE) pour détails
 Made with ❤️ and ⚡ by Yoni
 
 </div>
+
+---
+
+## 🌐 Application Web Streamlit
+
+### Lancer l'app
+```bash
+streamlit run app.py
+```
+
+L'application s'ouvre dans votre navigateur à `http://localhost:8501`
+
+### Fonctionnalités
+
+- 📅 Sélectionner une date future
+- 🔮 Générer prédictions sur 24h
+- 📊 Visualisation graphique interactive
+- 📥 Télécharger résultats en CSV
+
+![Streamlit App](docs/streamlit_preview.png)
+
