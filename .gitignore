@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# Data
+data/raw/*.csv
+data/raw/*.parquet
+data/processed/*.npz
+data/processed/*.pkl
+data/predictions/*.csv
+
+# Models
+models/*.h5
+models/*.keras
+models/checkpoints/*.h5
+models/checkpoints/*.keras
+
+# Results
+results/*.json
+results/visualizations/*.png
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Kaggle
+.kaggle/kaggle.json
